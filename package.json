@@ -1,21 +1,13 @@
 {
-  "name": "fcc03quote",
+  "name": "quotemachine",
   "version": "1.0.0",
-  "description": "This frontend project is to use the skills learned at FreeCodeCamp.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/browser-sync start --server 'public' --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/jacebenson/fcc-quotes.git"
+    "start": "./node_modules/.bin/browser-sync start --server public --watch"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/jacebenson/fcc-quotes/issues"
-  },
-  "homepage": "https://gitlab.com/jacebenson/fcc-quotes#README",
   "devDependencies": {
     "browser-sync": "^2.23.6"
   }
