@@ -12,10 +12,30 @@ body {
 
 .row {
     padding: 15px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
-#quote {
+#text:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: black;
+}
+
+
+#text {
+    padding-left:20px;
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+#author {
+    float: right;
+    padding-top: 10px;
     font-family: proxima-nova-sc, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font: 36px/1 Mono, sans-serif;
+    font: 20px/1 Mono, sans-serif;
 }
